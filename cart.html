@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Jewelry Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation menu -->
+  <nav>
+    <ul>
+      <li><a href="store.html">Home</a></li>
+      <li><a href="store.html">Products</a></li>
+      <li><a href="AboutUs.html">About Us</a></li>
+      <li><a href="store.html">Contact Us</a></li>
+      <li class="login"><a href="login 2.html">Login</a></li>
+      <li class="cart"><a href="cart.html">Cart (0)</a></li>
+    </ul>
+  </nav>
+
+  <!-- Cart page -->
+  <div class="container my-5">
+    <h1 class="mb-3">Your cart</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Product name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="cartTable">
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" class="text-right">Total:</td>
+          <td id="cartTotal">0.00</td>
+        </tr>
+      </tfoot>
+    </table>
+    <a href="#" class="btn btn-primary clear-cart">Clear cart</a>
+  </div>
+
+  <script src="app.js"></script>
+
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0 -->
